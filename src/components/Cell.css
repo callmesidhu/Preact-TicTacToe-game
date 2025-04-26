@@ -1,0 +1,21 @@
+.cell {
+        width: 80px;
+        height: 80px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+      }
+      
+      .cell:hover {
+        background-color: #f1f1f1;
+      }
+      
+      .cell:active {
+        background-color: #e0e0e0;
+      }
+      

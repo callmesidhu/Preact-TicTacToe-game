@@ -1,7 +1,6 @@
 {
-  "name": "tic-tac-toe",
-  "private": true,
-  "version": "0.0.0",
+  "name": "tic-tac-toe-preact",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,10 +8,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "preact": "^10.26.4"
+    "preact": "^10.15.1"
   },
   "devDependencies": {
-    "@preact/preset-vite": "^2.10.1",
-    "vite": "^6.3.1"
+    "vite": "^5.3.0",
+    "@preact/preset-vite": "^2.1.0",
+    "tailwindcss": "^3.3.2",
+    "postcss": "^8.4.23",
+    "autoprefixer": "^10.4.14"
   }
 }
